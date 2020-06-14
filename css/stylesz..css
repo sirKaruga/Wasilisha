@@ -1,0 +1,96 @@
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+.container {
+  padding: 16px;
+}
+
+
+#content{
+	width: 100%;
+	margin: 2px auto;
+	border: 1px solid #cbcbcb;
+
+
+}
+form{
+	width: 100%;
+	margin: 20px auto;
+}
+form div{
+	margin-top: 5px;
+}
+#img_div{
+	
+	padding: 10px;
+	margin: 15px auto;
+	border: 1px solid #cbcbcb;
+}
+#img_div:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+img{
+	float: left;
+	margin: none;
+	width: 3em;
+  
+	
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    padding: 1em;
+	 align-content: left;
+   
+}
+
+
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: auto;
+    height: 2em;
+}
+
+div.desc {
+    padding: 0px;
+    text-align: center;
+}
+
+.logo{
+	background-color: wheat;
+	border-radius: 0.3em;
+	text-align: center;
+	font-family: "Snap ITC";
+	font-size: 2em;
+
+}
+.a{
+	color: black;
+}
+
+
+.body{
+ width: 100vw; 
+        height: 56.25vw; 
+        background: pink;
+        max-height: 100vh;
+        max-width: 177.78vh; /* 16/9 = 1.778 */
+        margin: auto;
+        position: absolute;
+        top:0;bottom:0; /* vertical center */
+        left:0;right:0; /* horizontal center */}
