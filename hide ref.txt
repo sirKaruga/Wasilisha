@@ -1,0 +1,11 @@
+If you want an element to hide on size sm and below, but visible on md, lg and xl, use d-none d-md-block.
+
+xs (<576px)	sm (=576px)	md (=768px)	lg (=992px)	xl (=1200px)
+d-none d-sm-block	hide	show	show	show	show
+d-none d-md-block	hide	hide	show	show	show
+d-none d-lg-block	hide	hide	hide	show	show
+d-none d-xl-block	hide	hide	hide	hide	show
+d-block d-xl-none	show	show	show	show	hide
+d-block d-lg-none	show	show	show	hide	hide
+d-block d-md-none	show	show	hide	hide	hide
+d-block d-sm-none	show	hide	hide	hide	hide
