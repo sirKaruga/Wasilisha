@@ -1,2 +1,1 @@
-# Wasilisha
-javascript, html, css, bootstrap, php
+this is a system that sells a variety of products, from different vendors. System allows Vendors to create individual accounts from where they upload their products, the system administrators then preview the products before granting them the go ahead to the site. System architecture comprises of a highly scalable, user friendly and a UI compatible to all screen sizes. Please view it for more details. (Runs on SQL Database, PHP backend, Bootstrap + Custom CSS + HTML and JavaScript frontend)
